@@ -1,0 +1,48 @@
+.nav {
+  max-width: 70rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #ced4da;
+  text-align: center;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+.active {
+  border-bottom: 4px solid #adb5bd;
+}
+
+@media (max-width: 50.5em) {
+  .nav a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .nav a {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+  }
+
+  .nav {
+    flex-direction: column;
+    max-width: 70rem;
+    z-index: 100;
+  }
+
+  .active {
+    color: #fff;
+    width: 100%;
+    background-color: #212529;
+  }
+}

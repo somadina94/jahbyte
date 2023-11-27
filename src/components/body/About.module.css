@@ -1,0 +1,122 @@
+.section {
+  margin: auto;
+  padding: 2rem 6rem;
+  max-width: 110rem;
+}
+
+.title {
+  font-size: 3rem;
+  padding: 1.4rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem;
+  max-width: 60rem;
+}
+
+.history {
+  font-size: 2rem;
+  padding: 1.4rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.tech {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+  justify-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 30rem;
+}
+
+.info p {
+  font-size: 2rem;
+  padding: 1.4rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.html {
+  width: 6rem;
+  height: 6rem;
+  color: #fa5252;
+}
+.css {
+  width: 6rem;
+  height: 6rem;
+  color: #4dabf7;
+}
+.javascript {
+  width: 6rem;
+  height: 6rem;
+  color: yellow;
+}
+.react {
+  width: 6rem;
+  height: 6rem;
+  color: #4dabf7;
+}
+.next {
+  width: 6rem;
+  height: 6rem;
+  color: #868e96;
+}
+.node {
+  width: 6rem;
+  height: 6rem;
+  color: green;
+}
+.cSharp {
+  width: 6rem;
+  height: 6rem;
+  color: #ae3ec9;
+}
+
+@media (max-width: 65em) {
+  .tech {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 50em) {
+  .section {
+    padding: 2rem 5rem;
+  }
+  .info p {
+    font-size: 1.2rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .history {
+    font-size: 1.2rem;
+  }
+
+  .about {
+    padding: 0;
+  }
+}
+
+@media (max-width: 45.7em) {
+  .tech {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
