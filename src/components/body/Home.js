@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <section className={classes.hero}>
-      <h1>Hey, welcome to JahByte. My name is Williams Onuaguluchi a.k.a Master Bagwell</h1>
+      <h1>Hey, welcome to JahByte. My name is Williams Onuaguluchi a.k.a Mr. Bagwell</h1>
       <p>
         A passionate freelance full-stack web developer with a deep love for coding and a keen eye
         for cutting-edge technology. In a world where technology has become the heartbeat of
