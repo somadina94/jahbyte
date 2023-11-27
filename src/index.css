@@ -32,7 +32,6 @@ code {
   background-position: center;
   height: 100vh;
   overflow: auto;
-  position: relative;
 }
 
 @media (max-width: 50em) {
