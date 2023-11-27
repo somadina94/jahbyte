@@ -43,5 +43,6 @@
   .active {
     color: #fff;
     width: 100%;
+    border: none;
   }
 }
