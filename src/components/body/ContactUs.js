@@ -52,7 +52,7 @@ const ContactUs = () => {
     setShowSpinner(true);
 
     emailjs
-      .sendForm('service_ua44fo2', 'template_woqbj77', formRef.current, 'ljDiiwdlHrRgfP4dr')
+      .sendForm('service_z111as9', 'template_1m4o7wg', formRef.current, '68LD1sFIvxz4ARoxv')
       .then(
         (result) => {
           e.target.reset();
