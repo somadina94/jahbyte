@@ -30,7 +30,7 @@ const Nav = () => {
         CERTIFICATIONS
       </NavLink>
       <NavLink
-        to="contact-bagwellbyte"
+        to="contact-jahbyte"
         className={(navData) => (navData.isActive ? classes.active : classes.inactive)}
       >
         CONTACT

@@ -4,6 +4,7 @@ import {
   createRoutesFromElements,
   RouterProvider,
 } from 'react-router-dom';
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
 import Layout from './components/layout/Layout';
 import Home from './components/body/Home';
@@ -20,7 +21,7 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path="projects" element={<Projects />} />
       <Route path="certifications" element={<Cert />} />
-      <Route path="contact-bagwellbyte" element={<ContactUs />} />
+      <Route path="contact-jahbyte" element={<ContactUs />} />
     </Route>
   )
 );
@@ -29,6 +30,7 @@ function App() {
   return (
     <div className="background">
       <RouterProvider router={router} />
+      <TawkMessengerReact propertyId="643012464247f20fefea5d26" widgetId="1gtdseqgd" />
     </div>
   );
 }

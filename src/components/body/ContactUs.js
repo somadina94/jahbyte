@@ -96,12 +96,12 @@ const ContactUs = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>Contact Us</title>
+        <title>Contact JahByte</title>
         <meta
           name="description"
           content="Contact us through our contact channels provided for support and enquiries."
         />
-        <link rel="canonical" href="/contact-us" />
+        <link rel="canonical" href="/contact-jahbyte" />
       </Helmet>
       <div className={classes.container}>
         <form className={classes.form} ref={formRef} onSubmit={sendEmailHandler}>
