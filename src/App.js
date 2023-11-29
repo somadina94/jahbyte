@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+import { Fragment } from 'react';
 
 import Layout from './components/layout/Layout';
 import Home from './components/body/Home';
@@ -28,10 +29,10 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    <div className="background">
+    <Fragment>
       <RouterProvider router={router} />
       <TawkMessengerReact propertyId="643012464247f20fefea5d26" widgetId="1gtdseqgd" />
-    </div>
+    </Fragment>
   );
 }
 
