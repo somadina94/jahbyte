@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd5751dc.css",
-    "main.js": "/static/js/main.952a1af6.js",
+    "main.js": "/static/js/main.bcca89fe.js",
     "static/media/social-warlock.png": "/static/media/social-warlock.af9d28ac32ffdcffc887.png",
     "static/media/chambers.png": "/static/media/chambers.39c1aca76080718a2729.png",
     "static/media/background.jpg": "/static/media/background.4dad8e9f13515ff08d11.jpg",
@@ -16,10 +16,10 @@
     "static/media/dice-game.png": "/static/media/dice-game.fb8c7f4641e34e29dacb.png",
     "index.html": "/index.html",
     "main.cd5751dc.css.map": "/static/css/main.cd5751dc.css.map",
-    "main.952a1af6.js.map": "/static/js/main.952a1af6.js.map"
+    "main.bcca89fe.js.map": "/static/js/main.bcca89fe.js.map"
   },
   "entrypoints": [
     "static/css/main.cd5751dc.css",
-    "static/js/main.952a1af6.js"
+    "static/js/main.bcca89fe.js"
   ]
 }
