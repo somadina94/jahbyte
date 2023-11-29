@@ -26,6 +26,6 @@ jobs:
           username: ${{ secrets.HOSTINGER_USERNAME }}
           password: ${{ secrets.HOSTINGER_PASSWORD }}
           script: |
-            cd path/to/your/deployment/directory
+            cd /a193780528060250/files/public_html/
             rm -rf *
-            cp -r /path/to/your/react/app/build/* .
+            cp -r build/* .

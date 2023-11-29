@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd5751dc.css",
+    "main.js": "/static/js/main.952a1af6.js",
+    "static/media/social-warlock.png": "/static/media/social-warlock.af9d28ac32ffdcffc887.png",
+    "static/media/chambers.png": "/static/media/chambers.39c1aca76080718a2729.png",
+    "static/media/background.jpg": "/static/media/background.4dad8e9f13515ff08d11.jpg",
+    "static/media/natwest.png": "/static/media/natwest.62ac35fd1722f1eddbfb.png",
+    "static/media/background-mobile.png": "/static/media/background-mobile.3f92e1e17b5012ef8a51.png",
+    "static/media/react.jpg": "/static/media/react.e4bf5288913532bab3ff.jpg",
+    "static/media/node.jpg": "/static/media/node.bd328641d119d3a79b0e.jpg",
+    "static/media/html-css.jpg": "/static/media/html-css.b79dee036aaf9600a7f6.jpg",
+    "static/media/javascript.jpg": "/static/media/javascript.60145e1c6b8191e84d67.jpg",
+    "static/media/c-sharp.jpg": "/static/media/c-sharp.64544fa0aa70237af206.jpg",
+    "static/media/esut.jpg": "/static/media/esut.e9892cc24d4835b0ed44.jpg",
+    "static/media/dice-game.png": "/static/media/dice-game.fb8c7f4641e34e29dacb.png",
+    "index.html": "/index.html",
+    "main.cd5751dc.css.map": "/static/css/main.cd5751dc.css.map",
+    "main.952a1af6.js.map": "/static/js/main.952a1af6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd5751dc.css",
+    "static/js/main.952a1af6.js"
+  ]
+}
