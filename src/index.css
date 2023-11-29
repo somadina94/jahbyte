@@ -29,5 +29,6 @@ code {
 @media (max-width: 50em) {
   body {
     background-image: url('./images/me.jpg');
+    background-size: contain;
   }
 }
