@@ -14,6 +14,7 @@ import Projects from './components/body/Projects';
 import Cert from './components/body/Cert';
 import ContactUs from './components/body/ContactUs';
 import ErrorModal from './components/UI/ErrorModal';
+import Advert from './components/UI/Advert';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
       <Route path="projects" element={<Projects />} />
       <Route path="certifications" element={<Cert />} />
       <Route path="contact-jahbyte" element={<ContactUs />} />
+      <Route path="ad" element={<Advert />} />
     </Route>
   )
 );

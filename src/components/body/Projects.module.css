@@ -1,11 +1,16 @@
 .projects {
   padding: 2rem 9rem;
   margin: auto;
+  -webkit-display: grid;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  -webkit-grid-template-columns: repeat(2, 1fr);
   align-items: stretch;
+  -webkit-align-items: stretch;
   justify-items: center;
+  -webkit-justify-items: center;
   row-gap: 4rem;
+  -webkit-row-gap: 4rem;
 }
 
 .photo {
@@ -47,6 +52,7 @@
 @media (max-width: 62.5em) {
   .projects {
     grid-template-columns: repeat(1, 1fr);
+    -webkit-grid-template-columns: repeat(1, 1fr);
     padding: 2rem 6rem;
   }
 }

@@ -1,10 +1,15 @@
 .cert {
   padding: 2rem 6rem;
   margin: auto;
+  -webkit-display: grid;
   display: grid;
+  -webkit-grid-template-columns: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
+  -webkit-align-items: stretch;
   align-items: stretch;
+  -webkit-justify-items: center;
   justify-items: center;
+  -webkit-row-gap: 4rem;
   row-gap: 4rem;
 }
 
@@ -20,10 +25,14 @@
 .content {
   border: 10px solid black;
   border-radius: 8px;
+  -webkit-display: flex;
   display: flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: space-between;
+  -webkit-justify-content: space-between;
 }
 
 .content a {
@@ -52,6 +61,7 @@
 
 @media (max-width: 62.5em) {
   .cert {
+    -webkit-grid-template-columns: repeat(1, 1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }

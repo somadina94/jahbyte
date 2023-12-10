@@ -44,7 +44,7 @@ const Social = () => {
         <FaSquareFacebook className={classes.icon} />
       </a>
       <a
-        href="https://api.whatsapp.com/send/?phone=2347025204152&text&type=phone_number&app_absent=0"
+        href="https://api.whatsapp.com/send/?phone=2349063481322&text&type=phone_number&app_absent=0"
         target="_blank"
         rel="noreferrer"
       >

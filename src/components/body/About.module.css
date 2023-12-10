@@ -26,16 +26,24 @@
 }
 
 .tech {
+  -webkit-display: grid;
   display: grid;
+  -webkit-grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
+  -webkit-align-items: stretch;
   align-items: stretch;
+  -webkit-justify-items: center;
   justify-items: center;
 }
 
 .info {
+  -webkit-display: flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-gap: 1rem;
   gap: 1rem;
   margin-bottom: 4rem;
   background-color: rgba(0, 0, 0, 0.6);
@@ -104,6 +112,7 @@
 
 @media (max-width: 65em) {
   .tech {
+    -webkit-grid-template-columns: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -131,6 +140,7 @@
 
 @media (max-width: 45.7em) {
   .tech {
+    -webkit-grid-template-columns: repeat(1, 1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }

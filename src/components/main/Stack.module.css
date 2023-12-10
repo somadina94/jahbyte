@@ -5,9 +5,13 @@
   background-color: rgba(0, 0, 0, 0.6);
   /* border: 3px solid #fff; */
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  -webkit-display: flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
+  -webkit-gap: 1rem;
   gap: 1rem;
+  -webkit-align-items: center;
   align-items: center;
   padding: 1.2rem;
   border-radius: 8px;
