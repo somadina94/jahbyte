@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Fragment } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useSpring, animated } from 'react-spring';
 
 import classes from './Cert.module.css';
 import esut from '../../images/esut.jpg';
@@ -11,6 +12,12 @@ import node from '../../images/node.jpg';
 import cSharp from '../../images/c-sharp.jpg';
 
 const Cert = () => {
+  const props = useSpring({
+    marginTop: 0,
+    opacity: 1,
+    from: { marginTop: -50, opacity: 0 },
+    config: { tension: 1000, friction: 10, duration: 1000 },
+  });
   return (
     <Fragment>
       <Helmet>
@@ -19,13 +26,13 @@ const Cert = () => {
         <link rel="canonical" href="/certifications" />
       </Helmet>
       <section className={classes.cert}>
-        <div className={classes.content}>
+        <animated.div style={props} className={classes.content}>
           <div className={classes.photo}>
             <img src={esut} alt="certificate" />
           </div>
           <Link to="#">View certificate</Link>
-        </div>
-        <div className={classes.content}>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
           <div className={classes.photo}>
             <img src={html} alt="certificate" />
           </div>
@@ -36,8 +43,8 @@ const Cert = () => {
           >
             View certificate
           </a>
-        </div>
-        <div className={classes.content}>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
           <div className={classes.photo}>
             <img src={javascript} alt="certificate" />
           </div>
@@ -48,8 +55,8 @@ const Cert = () => {
           >
             View certificate
           </a>
-        </div>
-        <div className={classes.content}>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
           <div className={classes.photo}>
             <img src={react} alt="certificate" />
           </div>
@@ -60,8 +67,8 @@ const Cert = () => {
           >
             View certificate
           </a>
-        </div>
-        <div className={classes.content}>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
           <div className={classes.photo}>
             <img src={node} alt="certificate" />
           </div>
@@ -72,8 +79,8 @@ const Cert = () => {
           >
             View certificate
           </a>
-        </div>
-        <div className={classes.content}>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
           <div className={classes.photo}>
             <img src={cSharp} alt="certificate" />
           </div>
@@ -84,7 +91,7 @@ const Cert = () => {
           >
             View certificate
           </a>
-        </div>
+        </animated.div>
       </section>
     </Fragment>
   );

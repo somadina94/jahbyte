@@ -4,11 +4,18 @@ import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from 'react-icons/fa6';
 import { SiCsharp } from 'react-icons/si';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
+import { useSpring, animated } from 'react-spring';
 
 import classes from './About.module.css';
 import { Link } from 'react-router-dom';
 
 const About = () => {
+  const props = useSpring({
+    marginTop: 0,
+    opacity: 1,
+    from: { marginTop: -50, opacity: 0 },
+    config: { tension: 1000, friction: 10, duration: 1000 },
+  });
   return (
     <Fragment>
       <Helmet>
@@ -20,9 +27,11 @@ const About = () => {
         <link rel="canonical" href="/about" />
       </Helmet>
       <section className={classes.section}>
-        <h2 className={classes.title}>My Technology stack</h2>
+        <animated.div style={props}>
+          <h2 className={classes.title}>My Technology stack</h2>
+        </animated.div>
         <div className={classes.tech}>
-          <div className={classes.info}>
+          <animated.div className={classes.info} style={props}>
             <FaHtml5 className={classes.html} />
             <p>
               HTML5 is the latest evolution of the standard markup language used to structure and
@@ -30,8 +39,8 @@ const About = () => {
               multimedia support, and improved functionality for building modern, responsive
               websites.
             </p>
-          </div>
-          <div className={classes.info}>
+          </animated.div>
+          <animated.div className={classes.info} style={props}>
             <FaCss3Alt className={classes.css} />
             <p>
               CSS3 is the style sheet language used for describing the presentation of a document
@@ -39,8 +48,8 @@ const About = () => {
               and responsive design capabilities, allowing for more creative and dynamic web page
               layouts.
             </p>
-          </div>
-          <div className={classes.info}>
+          </animated.div>
+          <animated.div className={classes.info} style={props}>
             <RiJavascriptFill className={classes.javascript} />
             <p>
               JavaScript is a versatile and high-level programming language that enables dynamic,
@@ -48,8 +57,8 @@ const About = () => {
               experience by facilitating real-time updates, form validation, and the creation of
               interactive elements.
             </p>
-          </div>
-          <div className={classes.info}>
+          </animated.div>
+          <animated.div className={classes.info} style={props}>
             <FaReact className={classes.react} />
             <p>
               React is a JavaScript library for building user interfaces. Developed by Facebook, it
@@ -57,8 +66,8 @@ const About = () => {
               complex and interactive web applications with a focus on a single-page application
               architecture.
             </p>
-          </div>
-          <div className={classes.info}>
+          </animated.div>
+          <animated.div className={classes.info} style={props}>
             <TbBrandNextjs className={classes.next} />
             <p>
               Next.js is a React framework for building server-side rendered (SSR) and statically
@@ -66,8 +75,8 @@ const About = () => {
               SEO-friendly React applications by providing a set of conventions and features, such
               as automatic code splitting and server-side rendering.
             </p>
-          </div>
-          <div className={classes.info}>
+          </animated.div>
+          <animated.div className={classes.info} style={props}>
             <FaNodeJs className={classes.node} />
             <p>
               Node.js is a runtime environment that allows JavaScript to be executed on the
@@ -75,8 +84,8 @@ const About = () => {
               applications by using an event-driven, non-blocking I/O model, making it particularly
               suitable for building real-time applications.
             </p>
-          </div>
-          <div className={classes.info}>
+          </animated.div>
+          <animated.div className={classes.info} style={props}>
             <SiCsharp className={classes.cSharp} />
             <p>
               C# is a multi-paradigm programming language developed by Microsoft. It is widely used
@@ -85,7 +94,7 @@ const About = () => {
               simplicity of high-level languages, making it versatile for various development
               scenarios.
             </p>
-          </div>
+          </animated.div>
         </div>
         <div className={classes.about}>
           <h2 className={classes.title}>Brief background history</h2>

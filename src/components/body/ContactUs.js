@@ -3,6 +3,7 @@ import { BsFillPersonFill, BsFillEnvelopeAtFill, BsEnvelopeFill } from 'react-ic
 import useInput from '../../hooks/userInput';
 import emailjs from '@emailjs/browser';
 import { Helmet } from 'react-helmet-async';
+import { useSpring, animated } from 'react-spring';
 
 import classes from './ContactUs.module.css';
 import Spinner from '../UI/Spinner';
@@ -14,6 +15,14 @@ const ContactUs = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [alertMsg, setAlertMsg] = useState('');
   const [alertStatus, setAlertStatus] = useState(false);
+
+  const props = useSpring({
+    marginTop: 0,
+    opacity: 1,
+    from: { marginTop: -50, opacity: 0 },
+    config: { tension: 1000, friction: 10, duration: 1000 },
+  });
+
   const {
     value: nameInput,
     enteredValueIsValid: nameInputIsValid,
@@ -103,7 +112,7 @@ const ContactUs = () => {
         />
         <link rel="canonical" href="/contact-jahbyte" />
       </Helmet>
-      <div className={classes.container}>
+      <animated.div style={props} className={classes.container}>
         <form className={classes.form} ref={formRef} onSubmit={sendEmailHandler}>
           {showSpinner && <Spinner />}
           {showAlert && <AuthAlert message={alertMsg} status={alertStatus} />}
@@ -155,7 +164,7 @@ const ContactUs = () => {
             </button>
           </div>
         </form>
-      </div>
+      </animated.div>
     </Fragment>
   );
 };
