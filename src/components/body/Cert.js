@@ -10,6 +10,10 @@ import javascript from '../../images/javascript.jpg';
 import react from '../../images/react.jpg';
 import node from '../../images/node.jpg';
 import cSharp from '../../images/c-sharp.jpg';
+import typescript from '../../images/typescript.jpg';
+import RnT from '../../images/React-Typescript.jpg';
+import tailwind from '../../images/Tailwind.jpg';
+import reactNative from '../../images/React-Native.jpg';
 
 const Cert = () => {
   const props = useSpring({
@@ -46,6 +50,18 @@ const Cert = () => {
         </animated.div>
         <animated.div style={props} className={classes.content}>
           <div className={classes.photo}>
+            <img src={tailwind} alt="certificate" />
+          </div>
+          <a
+            href="https://www.udemy.com/certificate/UC-0da14fdf-99b3-4866-9fba-4d82ee55f123/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View certificate
+          </a>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
+          <div className={classes.photo}>
             <img src={javascript} alt="certificate" />
           </div>
           <a
@@ -58,10 +74,46 @@ const Cert = () => {
         </animated.div>
         <animated.div style={props} className={classes.content}>
           <div className={classes.photo}>
+            <img src={typescript} alt="certificate" />
+          </div>
+          <a
+            href="https://www.udemy.com/certificate/UC-9dd81385-5f66-47ea-bcac-350855a4f0bb/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View certificate
+          </a>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
+          <div className={classes.photo}>
             <img src={react} alt="certificate" />
           </div>
           <a
             href="https://www.udemy.com/certificate/UC-45b621bc-507d-4507-94f1-1e4215ba6fc9/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View certificate
+          </a>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
+          <div className={classes.photo}>
+            <img src={RnT} alt="certificate" />
+          </div>
+          <a
+            href="https://www.udemy.com/certificate/UC-14f28e33-7a64-4861-875f-2a13750dd9f7/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View certificate
+          </a>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
+          <div className={classes.photo}>
+            <img src={reactNative} alt="certificate" />
+          </div>
+          <a
+            href="https://www.udemy.com/certificate/UC-84533fc6-5b1b-4865-a658-d66b0e95003e/"
             target="_blank"
             rel="noreferrer"
           >

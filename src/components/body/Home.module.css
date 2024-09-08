@@ -51,7 +51,7 @@
   backdrop-filter: blur(4px);
 }
 
-/* .hero a {
+.hero a {
   text-decoration: none;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.6);
@@ -60,7 +60,7 @@
   border-radius: 50px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   padding: 2rem 5rem;
-} */
+}
 
 form {
   margin-top: 4rem !important;

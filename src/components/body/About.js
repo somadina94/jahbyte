@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from 'react-icons/fa6';
-import { SiCsharp } from 'react-icons/si';
+import { SiCsharp, SiTypescript, SiTailwindcss } from 'react-icons/si';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { useSpring, animated } from 'react-spring';
@@ -86,13 +86,35 @@ const About = () => {
             </p>
           </animated.div>
           <animated.div className={classes.info} style={props}>
-            <SiCsharp className={classes.cSharp} />
+            <FaReact className={classes.react} />
             <p>
-              C# is a multi-paradigm programming language developed by Microsoft. It is widely used
-              for building Windows applications, web applications (with ASP.NET), and games using
-              the Unity game engine. C# combines the power of low-level programming with the
-              simplicity of high-level languages, making it versatile for various development
-              scenarios.
+              React Native is a powerful framework for building mobile applications using JavaScript
+              and React. It enables the development of native apps for iOS and Android from a single
+              codebase, leveraging native components to deliver high-performance and responsive user
+              interfaces. With React Native, I can create cross-platform mobile apps that maintain a
+              native look and feel, streamlining the development process and reducing
+              time-to-market.
+            </p>
+          </animated.div>
+          <animated.div className={classes.info} style={props}>
+            <SiTypescript className={classes.react} />
+            <p>
+              TypeScript is a strongly typed superset of JavaScript that enhances code quality and
+              maintainability by adding static types. It helps catch errors early during
+              development, improves code readability, and facilitates better tooling and
+              refactoring. By using TypeScript, I can build robust, scalable applications with a
+              clear and consistent codebase, ensuring smoother development and easier collaboration.
+            </p>
+          </animated.div>
+          <animated.div className={classes.info} style={props}>
+            <SiTailwindcss className={classes.react} />
+            <p>
+              Tailwind CSS is a utility-first CSS framework that allows for rapid UI development by
+              providing a wide range of predefined classes. It simplifies styling by letting me
+              apply styles directly to HTML elements, resulting in a streamlined and responsive
+              design process. With Tailwind, I can quickly create custom, modern interfaces without
+              writing extensive custom CSS, all while maintaining a consistent and cohesive design
+              system.
             </p>
           </animated.div>
         </div>

@@ -1,5 +1,5 @@
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from 'react-icons/fa6';
-import { SiCsharp } from 'react-icons/si';
+import { SiTypescript } from 'react-icons/si';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
 
@@ -12,9 +12,9 @@ const Stack = () => {
       <FaCss3Alt className={`${classes.css} ${classes.icon}`} />
       <RiJavascriptFill className={`${classes.javascript} ${classes.icon}`} />
       <FaReact className={`${classes.react} ${classes.icon}`} />
+      <SiTypescript className={`${classes.react} ${classes.icon}`} />
       <TbBrandNextjs className={`${classes.next} ${classes.icon}`} />
       <FaNodeJs className={`${classes.node} ${classes.icon}`} />
-      <SiCsharp className={`${classes.cSharp} ${classes.icon}`} />
     </nav>
   );
 };
