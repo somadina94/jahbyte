@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from 'react-icons/fa6';
-import { SiCsharp, SiTypescript, SiTailwindcss } from 'react-icons/si';
+import { SiTypescript, SiTailwindcss } from 'react-icons/si';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { useSpring, animated } from 'react-spring';

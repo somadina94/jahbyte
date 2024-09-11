@@ -30,7 +30,7 @@ const Social = () => {
         <FaLinkedin className={classes.icon} />
       </a>
       <a
-        href="https://instagram.com/bagwellsoma?igshid=YTQwZjQ0NmI0OA== "
+        href="https://instagram.com/jahbyte?igshid=YTQwZjQ0NmI0OA== "
         target="_blank"
         rel="noreferrer"
       >
@@ -44,7 +44,7 @@ const Social = () => {
         <FaSquareFacebook className={classes.icon} />
       </a>
       <a
-        href="https://api.whatsapp.com/send/?phone=2349063481322&text&type=phone_number&app_absent=0"
+        href="https://api.whatsapp.com/send/?phone=2347073657212&text&type=phone_number&app_absent=0"
         target="_blank"
         rel="noreferrer"
       >
