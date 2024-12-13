@@ -25,8 +25,8 @@ const Home = () => {
         </animated.div>
         <animated.div style={props}>
           <p>
-            Hey I am Williams, a passionate freelance full-stack web developer with a deep love for
-            coding and a keen eye for cutting-edge technology. In a world where technology has
+            Hey I am Williams, a passionate freelance full-stack software engineer with a deep love
+            for coding and a keen eye for cutting-edge technology. In a world where technology has
             become the heartbeat of progress, I believe in harnessing its power to make life easier
             and more enjoyable. My journey is driven by a fascination with the evolving landscape of
             technology. I thrive on turning this fascination into tailored solutions for start-ups
@@ -35,7 +35,7 @@ const Home = () => {
             exceed expectations.
           </p>
         </animated.div>
-        <Link to="/about">View Stack</Link>
+        <Link to="/projects">View Projects</Link>
       </section>
     </Fragment>
   );

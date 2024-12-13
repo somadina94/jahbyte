@@ -4,6 +4,7 @@ import { useSpring, animated } from 'react-spring';
 import { FcLink } from 'react-icons/fc';
 import { FaGithubSquare } from 'react-icons/fa';
 import { Carousel } from 'react-bootstrap';
+import { IoLogoGooglePlaystore } from 'react-icons/io5';
 
 import classes from './Projects.module.css';
 import { projects } from '../../util/projects';
@@ -42,9 +43,16 @@ const Projects = () => {
                 <a href={proj.githubLink} target="_blank" rel="noreferrer">
                   <FaGithubSquare className={classes.icon} />
                 </a>
-                <a href={proj.websiteLink} target="_blank" rel="noreferrer">
-                  <FcLink className={classes.icon} />
-                </a>
+                {!proj.description.includes('React Native') && (
+                  <a href={proj.websiteLink} target="_blank" rel="noreferrer">
+                    <FcLink className={classes.icon} />
+                  </a>
+                )}
+                {proj.description.includes('React Native') && (
+                  <a href={proj.websiteLink} target="_blank" rel="noreferrer">
+                    <IoLogoGooglePlaystore className={classes.icon} />
+                  </a>
+                )}
               </div>
               <p>{proj.description}</p>
             </div>

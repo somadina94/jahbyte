@@ -1,6 +1,19 @@
 export const projects = [
   {
     photos: [
+      require('../images/projects/pnkinn/pn1.png'),
+      require('../images/projects/pnkinn/pn2.png'),
+      require('../images/projects/pnkinn/pn3.png'),
+      require('../images/projects/pnkinn/pn4.png'),
+      require('../images/projects/pnkinn/pn5.png'),
+    ],
+    githubLink: 'https://github.com/somadina94/thepnkinn-mobile',
+    websiteLink: 'https://play.google.com/store/apps/details?id=com.jahbyte.thepnkinn',
+    description:
+      'A simple React Native apartment and rooms bookings app for a cozy Inn in Lagos city Nigeria.  Click on the Play Store Icon to download the app from Google Play Store.',
+  },
+  {
+    photos: [
       require('../images/projects/meals-app/1.png'),
       require('../images/projects/meals-app/2.png'),
       require('../images/projects/meals-app/3.png'),
@@ -24,19 +37,22 @@ export const projects = [
   },
   {
     photos: [
-      require('../images/projects/expense-tracker/1.jpg'),
-      require('../images/projects/expense-tracker/2.jpg'),
-      require('../images/projects/expense-tracker/3.jpg'),
-      require('../images/projects/expense-tracker/4.jpg'),
-      require('../images/projects/expense-tracker/Screenshot_1718803990.png'),
-      require('../images/projects/expense-tracker/Screenshot_1718803995.png'),
-      require('../images/projects/expense-tracker/Screenshot_1718803999.png'),
-      require('../images/projects/expense-tracker/Screenshot_1718804004.png'),
+      require('../images/projects/expense-tracker/ex1.png'),
+      require('../images/projects/expense-tracker/ex2.png'),
+      require('../images/projects/expense-tracker/ex3.png'),
+      require('../images/projects/expense-tracker/ex4.png'),
+      require('../images/projects/expense-tracker/ex5.png'),
+      require('../images/projects/expense-tracker/ex6.png'),
+      require('../images/projects/expense-tracker/ex7.png'),
+      require('../images/projects/expense-tracker/ex8.png'),
+      require('../images/projects/expense-tracker/ex9.png'),
+      require('../images/projects/expense-tracker/ex10.png'),
+      require('../images/projects/expense-tracker/ex11.png'),
     ],
     githubLink: 'https://github.com/somadina94/expense-tracker-for-ios-and-android',
-    websiteLink: 'https://github.com/somadina94/expense-tracker-for-ios-and-android',
-    description: `An ios and android app built with react native to track your expenses, register expenses,
-       view all expenses and delete or update expense and also view recent expenses only.`,
+    websiteLink: 'https://github.com/somadina94/expense-tracker-native',
+    description: `An ios and android app built with React Native to track your expenses, register expenses,
+       view all expenses and delete or update expense and also view recent expenses only. Click on the Play Store Icon to download the app from Google Play Store.`,
   },
   {
     photos: [
