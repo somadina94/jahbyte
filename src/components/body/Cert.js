@@ -14,6 +14,8 @@ import typescript from '../../images/typescript.jpg';
 import RnT from '../../images/React-Typescript.jpg';
 import tailwind from '../../images/Tailwind.jpg';
 import reactNative from '../../images/React-Native.jpg';
+import python from '../../images/Python-UC-a5882f37-0d98-4ab7-8286-34a2968e774d.jpg';
+import uxui from '../../images/UX-UI-UC-b44670b2-a7db-4851-8ffd-1b0264786438.jpg';
 
 const Cert = () => {
   const props = useSpring({
@@ -138,6 +140,30 @@ const Cert = () => {
           </div>
           <a
             href="https://www.udemy.com/certificate/UC-057429c5-dc1c-4d3a-8e9b-b3fce2cca625/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View certificate
+          </a>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
+          <div className={classes.photo}>
+            <img src={python} alt="certificate" />
+          </div>
+          <a
+            href="https://www.udemy.com/certificate/UC-a5882f37-0d98-4ab7-8286-34a2968e774d/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View certificate
+          </a>
+        </animated.div>
+        <animated.div style={props} className={classes.content}>
+          <div className={classes.photo}>
+            <img src={uxui} alt="certificate" />
+          </div>
+          <a
+            href="https://www.udemy.com/certificate/UC-b44670b2-a7db-4851-8ffd-1b0264786438/"
             target="_blank"
             rel="noreferrer"
           >

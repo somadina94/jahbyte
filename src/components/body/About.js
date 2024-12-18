@@ -4,6 +4,7 @@ import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from 'react-icons/fa6';
 import { SiTypescript, SiTailwindcss } from 'react-icons/si';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
+import { FaPython, FaFigma } from 'react-icons/fa';
 import { useSpring, animated } from 'react-spring';
 
 import classes from './About.module.css';
@@ -115,6 +116,23 @@ const About = () => {
               design process. With Tailwind, I can quickly create custom, modern interfaces without
               writing extensive custom CSS, all while maintaining a consistent and cohesive design
               system.
+            </p>
+          </animated.div>
+          <animated.div className={classes.info} style={props}>
+            <FaPython className={classes.python} />
+            <p>
+              Python is a versatile programming language known for its simplicity and readability.
+              It enables me to build various applications, from web development to data analysis,
+              with a vast array of libraries and frameworks. Python's clear syntax makes it
+              beginner-friendly while supporting rapid and efficient development.
+            </p>
+          </animated.div>
+          <animated.div className={classes.info} style={props}>
+            <FaFigma className={classes.figma} />
+            <p>
+              Figma is a cloud-based design tool that simplifies UI/UX design through real-time
+              collaboration and an intuitive interface. It allows me to create and share designs
+              effortlessly, ensuring consistency and precision during the design process.
             </p>
           </animated.div>
         </div>

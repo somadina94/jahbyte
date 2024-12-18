@@ -96,6 +96,18 @@
   color: #ae3ec9;
 }
 
+.python {
+  width: 6rem;
+  height: 6rem;
+  color: #fab005;
+}
+
+.figma {
+  width: 6rem;
+  height: 6rem;
+  color: #ae3ec9;
+}
+
 .link {
   text-decoration: none;
   color: #fff;
